@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Drum Kit</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@900&display=swap&effect=3d|neon" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        
+            <h1  id="main-title" class="font-effect-3d">Drum 🥁 Kit</h1>
+            <div class="drum-kit-wrapper">
+                <img id="crash-ride" class="crash-cymbal" src="img/crash.png" alt="Crash">
+                <img id="hihat-top" class="hihat-top-cymbal" src="img/hihat-top.png" alt="HiHat">
+                <div data-key="74" class="key snare">
+                    <kbd>J</kbd>
+                </div>
+                <div data-key="66" class="key kick">
+                    <kbd>B</kbd>
+                </div>
+                <div data-key="86" class="key kick2">
+                    <kbd>V</kbd>
+                </div>
+                <div data-key="65" class="key clap">
+                    <kbd>A </kbd>
+                </div>
+                <div data-key="72" class="key tom-high">
+                    <kbd>H </kbd>
+                </div>
+                <div data-key="71" class="key tom-mid">
+                    <kbd>G</kbd>
+                </div>
+                <div data-key="70" class="key tom-low">
+                    <kbd>F</kbd>
+                </div>
+                <div data-key="82" class="key ride">
+                    <kbd>R</kbd>
+                </div>
+                <div data-key="69" class="key crash">
+                    <kbd>E</kbd>
+                </div>
+                <div data-key="73" class="key hihat-open">
+                    <kbd>I</kbd>
+                </div>
+                <div data-key="75" class="key hihat-close">
+                    <kbd>K</kbd>
+                </div>
+                <img class="drum-kit" src="img/drum-kit.png" alt="Drum Kit" />
+            </div>
+        </section>
+    </main>
+    <audio data-key="74" src="music/snare.wav"></audio>
+    <audio data-key="66" src="music/kick.wav"></audio>
+    <audio data-key="86" src="music/kick.wav"></audio>
+    <audio data-key="65" src="music/clap.wav"></audio>
+    <audio data-key="72" src="music/tom-high.wav"></audio>
+    <audio data-key="71" src="music/tom-mid.wav"></audio>
+    <audio data-key="70" src="music/tom-low.wav"></audio>
+    <audio data-key="69" src="music/crash.wav"></audio>
+    <audio data-key="82" src="music/ride.wav"></audio>
+    <audio data-key="73" src="music/hihat-open.wav"></audio>
+    <audio data-key="75" src="music/hihat-close.wav"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
